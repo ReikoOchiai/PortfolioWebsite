@@ -11,7 +11,13 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") no-repeat;
+  background: #040404 url("../img/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
   transform: scaleX(-1);
   background-size: cover;
   left: 0;
@@ -62,12 +68,12 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #d24d18;
   text-decoration: none;
 }
 
 a:hover {
-  color: #35e888;
+  color: #d24d18;
   text-decoration: none;
 }
 
@@ -114,7 +120,8 @@ h6 {
   font-size: 24px;
   margin-top: 20px;
   margin-right: 10px;
-  color: rgba(255, 255, 255, 0.8);
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* typewriter effect */
@@ -163,7 +170,7 @@ h6 {
   height: 40px;
 }
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #080808;
 }
 @media (max-width: 992px) {
   #header h1 {
