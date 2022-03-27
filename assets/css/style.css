@@ -706,6 +706,12 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio .img-fluid {
+  height: 380px;
+  width: 400px;
+  object-fit: cover;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
