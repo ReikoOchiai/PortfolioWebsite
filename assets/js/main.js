@@ -25,18 +25,6 @@ let letter = "";
   setTimeout(type, 400);
 })();
 
-// let textPosition = 0;
-// let speed = 100;
-
-// typewriter = () => {
-//   document.querySelector(.message).innerHTML =
-//     messageArray[0].substring(0, textPosition) + "<div>\u25ae</div>";
-
-//   if (textPosition++ != messageArray[0].length) setTimeout(typewriter, speed);
-// };
-
-// window.addEventListener("load", typewriter);
-
 /**
  * Easy selector helper function
  */
