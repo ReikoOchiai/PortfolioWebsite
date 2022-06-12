@@ -22,7 +22,7 @@ let letter = "";
     letterCount = 0;
   }
 
-  setTimeout(type, 400);
+  setTimeout(type, 200);
 })();
 
 /**
